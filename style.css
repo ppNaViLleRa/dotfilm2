@@ -91,7 +91,7 @@ body{
     }
 }
 .conB{
-    height: 100vh;
+   height:  100vh;
 }
 .conB .container{
     text-align: center;
@@ -135,10 +135,6 @@ body{
         width: 60%;
     }
 }
-.conC{
-    height: 100vh;
-    
-}
 .conC .hero_container{
     height: 20vh;
     text-align: center;
@@ -154,7 +150,6 @@ body{
     margin-left:0.3rem;
 }
 .conC .gallery_container{
-    height: 80vh;
     display:flex;
     flex-wrap: wrap;
     max-width: 1000px;
@@ -207,9 +202,6 @@ body{
 .photoA p{
     letter-spacing: 0.7rem;
     margin-left:0.7rem;
-}.conC{
-    height: 100vh;
-    
 }
 .photoB{
     text-align: center;
