@@ -1,0 +1,271 @@
+:root{
+    --main-color:#BFBFBF;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+body{
+    font-family: 'Ubuntu','Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+.conA{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image:linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.7)),  url(img/hero.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+    min-height: 450px;
+}
+
+.conA h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    margin-bottom: 12px;
+    font-size:7vw;
+    letter-spacing: 0.3rem;
+    margin-left:0.3rem;
+}
+.conA p{
+    font-size:20px;
+}
+@media (min-width: 768px){
+    .conA h1{
+        font-size: 115px;
+    }
+    .conA p{
+        font-size:28px;
+    }
+}
+.conB{
+    height: 100vh;
+}
+.conB .container{
+    text-align: center;
+}
+.conB .text{
+    text-align: center;
+    padding:80px 0;
+}
+.conB p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 1.7;
+}
+.conB .icon{
+    font-size: 25px;
+    margin: 5px;
+}
+.conB .hani{
+    width:100vw;
+}
+
+@media (min-width: 768px){
+    .conB{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .conB .container{
+        display: flex;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .conB .text{
+        flex:2;
+    }
+    .conB .hani{
+        flex:3;
+        width: 60%;
+    }
+}
+.conC{
+    height: 100vh;
+    
+}
+.conC .hero_container{
+    height: 20vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conC h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    margin-left:0.3rem;
+}
+.conC .gallery_container{
+    height: 80vh;
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+.conC .gallery_container h3{
+    font-size:22px;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    margin-left:0.1rem;
+}
+.conC .gallery_container p{
+    font-size:16px;
+    opacity: 0.8;
+    letter-spacing: 0.1rem;
+    margin-left:0.1rem;
+    line-height: 1.3;
+}
+.conC .gallery_container .photo{
+    min-height: 250px;
+    background-position: center;
+    background-size: cover;
+}
+.conC .gallery_container a{
+    margin: 10px;
+    display: block;
+    border: solid 1px #ddd;
+    flex: 1;
+}
+.conC .gallery_container a:hover{
+    opacity: 0.8;
+}
+.conC .text{
+    margin: 5px;
+}
+.conC article{
+    flex: 1 1 500px;
+    display: flex;
+    height: 40vh;
+}
+
+
+.photoA{
+    background-image:linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.7)),  url(img/GREECE/0.jpg);
+}
+.photoA h1{
+    letter-spacing: 0.4rem;
+    margin-left:0.4rem;
+}
+.photoA p{
+    letter-spacing: 0.7rem;
+    margin-left:0.7rem;
+}.conC{
+    height: 100vh;
+    
+}
+.photoB{
+    text-align: center;
+}
+.photoB .hero_container{
+    height: 20vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photoB h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    margin-left:0.3rem;
+}
+.photoB .gallery_container .photo{
+    min-height: 250px;
+    background-position: center;
+}
+.photoB .gallery_container a{
+    margin:10px;
+    display: block;
+    border: solid 1px #ddd;
+}
+.photoB .gallery_container a:hover{
+    opacity: 0.8;
+}.photoB .gallery_container{
+    display:flex;
+    flex-wrap:wrap;
+    max-width: 1000px;
+    margin:30px auto;
+}
+.photoB .gallery_container article{
+    flex: 1 1 300px;
+}
+.italyhero{
+    background-image:linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.7)),  url(img/ITALY/0.jpg);
+}
+.morrocohero{
+    background-image:linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.7)),  url(img/MORROCO/0.jpg);
+}
+.vaticanhero{
+    background-image:linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.7)),  url(img/VATICAN/0.jpg);
+}
+.footA .icon{
+    font-size:20px;
+    margin:5px;
+}
+.footA h3{
+    font-weight: 400;
+}
+.footA{
+    margin: 10px 0;
+    padding-top: 10px;
+    text-align: center;
+}
